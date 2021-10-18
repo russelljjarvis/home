@@ -43,8 +43,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/russelljjarvis.jpeg"),
-  imageSize: 975,
+  imageLink: require("../editable-stuff/me.jpg"),
+  imageSize: 175,
   message:"My name is Russell Jarvis, I have graduate degrees in Biomedical (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I have experience in numerical modelling and simulation. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have completed a PhD computational neuroscience at Arizona State University. I have a long history of participating in social coding practices and living abroad. My main computer is currently an NVIDIA Jetson Nano, and I am using this ARM device to do julia-lang genetic algorithm development. I am currently a developer in a project that involves optimizing reduced and simplified neuron models. I spend a lot of my spare time and money on improving native vegetation.",
   resume: require('../editable-stuff/resume.pdf')
 };
@@ -65,9 +65,9 @@ const repos = {
 // Leadership SECTION
 
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
-  message:"Once I was invited to join a Not for Profit web scraping project. I noticed that the NFP was highly aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to:  Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.",
+  message:"I have written to the Mt Alexander council with a proposal about what it would mean to declare a climate emergency. I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was highly aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to:  Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.",
   images: [],
     imageSize: {
     width:"615",
