@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  message: "Passionate about Julia Language and machine learning for social good. ",
+  profilePictureLink: require("../editable-stuff/nature.png"),
+  message: "Passionate about Julia Language and Machine Learning for social good. ",
   icons: [
     {
       image: "fa-github",
@@ -43,9 +44,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/me.jpg"),
-  imageSize: 175,
-  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I have experience in numerical modelling and simulation. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have completed a PhD computational neuroscience at Arizona State University. I have a long history of participating in social coding practices and living abroad. My main computer is currently an NVIDIA Jetson Nano, and I am using this ARM device to do julia-lang genetic algorithm development. I am currently a developer in a project that involves optimizing reduced and simplified neuron models. I spend a lot of my spare time and money on improving native vegetation.",
+  imageLink: "",//require("../editable-stuff/bicycle.jpg"),
+  imageSize: "",//175,
+  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical Engineering (MA) and Computational Neuroscience (PhD). I am a long term FOSS data science developer. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have a long history of participating in social coding practices and living abroad. I am currently a developer in a project that involves using Julia to do data-fitting of electrical neuronal models. My main computer is currently an NVIDIA Jetson Nano (ARM architercture). I spend a lot of my spare time and money on improving native vegetation.",
   resume: require('../editable-stuff/resume.pdf')
 };
 
@@ -67,7 +68,7 @@ const repos = {
 const leadership = {
   show: true,
   heading: "Leadership",
-  message:"I have written to the Mt Alexander council with a proposal about what it would mean to declare a climate emergency. I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was highly aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to:  Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.",
+  message:"<p>I have not occupied leadership roles, but I have demonstrated social and professional leadership skills for example:</p><p>I have written to the Mt Alexander council with a proposal about what it would mean to declare a climate emergency.<\p><p>I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to:  Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.<\p><p>At the Arizona State University, night of the Open Door (a science outreach evening), I convinced my laboratory to visualize 3D neurons we were modelling in virtual reality, using a merge-cube. Since our lab was a theoretical and computational lab, using virtual reality greatly boosted communication of abstract knowlege.<\p>",
   images: [],
     imageSize: {
     width:"615",
@@ -103,12 +104,13 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Julia-Language", value: 70 },
-    { name: "Machine Learning", value: 65 },
+    { name: "Julia-Language", value: 78 },
+    { name: "Machine Learning", value: 75 },
     { name: "Optimization", value: 85 },
-    { name: "Python", value: 80 },
+    { name: "Python", value: 90 },
     { name: "Linux/BASH", value: 85 },
     { name: "Numba JIT", value: 70 },
+    { name: "R-Language", value: 60 },
     { name: "LaTeX/Overleaf", value: 65 },
     { name: "Git/CI", value: 95 },
     { name: "Dask", value: 80 },
@@ -133,7 +135,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I am currently looking for work in Data Science and or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "russelljjarvis@protonmail.com",
+  email: "russelljarvis@protonmail.com",
 };
 
 const experiences = {
