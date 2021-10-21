@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cdbf039157bac6d2e5ec9c88efc99bf",
+    "revision": "a8fe50de2825c840ff155628939d3bfb",
     "url": "/home/index.html"
   },
   {
-    "revision": "b5f10848a6e22a4f5b3c",
+    "revision": "2bd9bd3704de9ca9dba2",
     "url": "/home/static/css/main.b5792bd0.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.493c0fb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5f10848a6e22a4f5b3c",
-    "url": "/home/static/js/main.e33778ed.chunk.js"
+    "revision": "2bd9bd3704de9ca9dba2",
+    "url": "/home/static/js/main.5492115b.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
     "url": "/home/static/js/runtime-main.3c590061.js"
   },
   {
-    "revision": "1c66e351fad9c0c57c3216fc6159672f",
-    "url": "/home/static/media/nature.1c66e351.png"
+    "revision": "1cb3ac63a43d2a7d03821dbebbf779c6",
+    "url": "/home/static/media/juggling.1cb3ac63.png"
   },
   {
     "revision": "f6716aca0b395e377a9b7bd67eb7a306",
