@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  profilePictureLink: require("../editable-stuff/nature.png"),
+  profilePictureLink: require("https://github.com/russelljjarvis/home/blob/master/src/editable-stuff/nature.png"),
   message: "Passionate about Julia Language and Machine Learning for social good. ",
   icons: [
     {
@@ -64,7 +64,7 @@ const repos = {
 };
 
 // Leadership SECTION
-
+/*
 const leadership = {
   show: true,
   heading: "Leadership",
@@ -75,7 +75,7 @@ const leadership = {
     height:"450"
   }
 };
-
+*/
 /*const leadership = {
   show: false,
   heading: "Leadership",
