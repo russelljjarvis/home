@@ -64,7 +64,7 @@ const repos = {
 };
 
 // Leadership SECTION
-
+/*
 const leadership = {
   show: true,
   heading: "Professional Anecdotes",
@@ -75,7 +75,7 @@ const leadership = {
     height:"450"
   }
 };
-
+*/
 /*const leadership = {
   show: false,
   heading: "Leadership",
