@@ -25,29 +25,18 @@ const Experience = ({}) => {
                     <p>
                         <a href="https://share.streamlit.io/mcgurrgurr/scienceaccess/app.py">Searchable Exploration of the Readability of Scientific Authors</a>
                     </p>
-                </div>
-            </center>
-            <center>
-                <div class="Cell">
+                    <p>
+                        <a href="https://share.streamlit.io/russelljjarvis/odor2action/app.py">Unique Interactive Social Network Visualizations </a>
+                    </p>
+                    <p>
+                        <a href="https://share.streamlit.io/russelljjarvis/sirg_geo_net/main/app3.py">Interactive Geographic Network Visualization </a>
+                    </p>
                     <p>
                         <a href="https://calm-dusk-34444.herokuapp.com/">Visualization of author/co-author Networks</a>
                     </p>
-                </div>
-            </center>
 
-            <center>
-                <div class="Cell">
-                    <p>
-                        <a href="https://share.streamlit.io/russelljjarvis/sirg_geo_net/main/app3.py">Interactive Geographic Network Visualization</a>
-                    </p>
                 </div>
-            </center>
-            <center>
-                <div class="Cell">
-                    <p>
-                        <a href="=https://share.streamlit.io/russelljjarvis/odor2action/app.py">Unique Interactive Social Network Visualizations</a>
-                    </p>
-                </div>
+
             </center>
             <h1 className="display-4 pb-5 mb-4 mr-5 pr-0 text-center">{"Science Writing"}</h1>
             <div class="Cell">

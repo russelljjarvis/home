@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  profilePictureLink: require("https://github.com/russelljjarvis/home/blob/master/src/editable-stuff/nature.png"),
+  //profilePictureLink: require("https://github.com/russelljjarvis/home/blob/master/src/editable-stuff/nature.png"),
   message: "Passionate about Julia Language and Machine Learning for social good. ",
   icons: [
     {
@@ -64,18 +64,9 @@ const repos = {
 };
 
 // Leadership SECTION
-/*
 const leadership = {
-  show: true,
-  heading: "Professional Anecdotes",
-  message:"<p>I have not occupied leadership roles, but I have demonstrated social and professional leadership skills for example:</p><p>I have written to the Mt Alexander council with a proposal about what it would mean to declare a climate emergency.<\p><p>I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to:  Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.<\p><p>At the Arizona State University, night of the Open Door (a science outreach evening), I convinced my laboratory to visualize 3D neurons we were modelling in virtual reality, using a merge-cube. Since our lab was a theoretical and computational lab, using virtual reality greatly boosted communication of abstract knowlege.<\p>",
-  images: [],
-    imageSize: {
-    width:"615",
-    height:"450"
-  }
+  show: true
 };
-*/
 /*const leadership = {
   show: false,
   heading: "Leadership",

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, Profiler } from "react";
-import Carousel from "react-bootstrap/Carousel";
 
-const Leadership = ({ heading, message, img, imageSize }) => {
+const Leadership = ({}) => {
   return (
     <div
       id="leadership"
@@ -9,37 +8,18 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       style={{ backgroundColor: "white" }}
     >
       <div className="container container-fluid">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
+        <h2 className="display-4 pb-5 text-center">{"Professional Anecdotes"}</h2>
         <div className="row">
 
             <centre>
-              <p className="lead">{message}</p>
+            <p>
+              I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to: Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.
+            </p>
+            <p>
+              At a science outreach evening called the ASU Night of the Open Door, I convinced my laboratory to visualize 3D neuron cell structure in virtual reality. Since our lab was a theoretical/computational lab having a virtual reality product to show people greatly assisted with our labs capacity to communicate abstract knowlege.
+            </p>
             </centre>
 
-
-          <div className="col-md-7">
-            <Carousel>
-              {img.map((value, index) => {
-                return (
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={value.img}
-                      alt="First slide"
-                      width={imageSize.width}
-                      height={imageSize.height}
-                    />
-                    <Carousel.Caption>
-                      <h3>{value.label}</h3>
-                      <p>
-                        {value.paragraph}
-                      </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                );
-              })}
-            </Carousel>
-          </div>
         </div>
       </div>
     </div>
