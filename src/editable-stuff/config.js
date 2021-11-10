@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  profilePictureLink: require("../editable-stuff/juggling.png"),
+  profilePictureLink: require("https://github.com/russelljjarvis/home/blob/master/src/editable-stuff/nature.png"),
   message: "Passionate about Julia Language and Machine Learning for social good. ",
   icons: [
     {
