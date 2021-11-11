@@ -13,7 +13,7 @@ const Experience = ({}) => {
                 <center>
 
                     <p>
-                        In my spare time I have made some data driven apps.
+                        In my spare time I have made these open source data driven web-apps and dashboards:
                     </p>
                 </center>
 
@@ -43,19 +43,23 @@ const Experience = ({}) => {
                 <center>
 
                 <p>
-                    While completing a PhD I wrote a PhD thesis, and coauthored numerous scientific documents.
+                    While completing a PhD I wrote a PhD dissertation, and coauthored numerous scientific documents.
                 </p>
                 </center>
 
             </div>
 
             <center>
+
+
                 <div class="Cell">
                     <p>
                         <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2017.0381">Open Worm CElegans publication</a>
                     </p>
                 </div>
             </center>
+
+
             <center>
                 <div class="Cell">
                     <p>
@@ -63,8 +67,14 @@ const Experience = ({}) => {
                     </p>
                 </div>
             </center>
+            <center>
+                <div class="Cell">
+                    <p>
 
-
+                        <a href="https://www.researchgate.net/publication/345442161_NeuronUnit_A_package_for_data-driven_validation_of_neuron_models_using_SciUnit"> NeuronUnit </a>
+                    </p>
+                </div>
+            </center>
             <center>
                 <div class="Cell">
                     <p>

@@ -44,9 +44,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "",//require("../editable-stuff/bicycle.jpg"),
+  imageLink: "",
   imageSize: "",//175,
-  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical Engineering (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have a long history of participating in social coding practices and living abroad. I am currently a developer in a project that involves using Julia to do data-fitting of electrical neuronal models. My main computer is currently an NVIDIA Jetson Nano (ARM architercture). I spend a lot of my spare time and money on improving native vegetation.",
+  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical Engineering (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have a long history of participating in social coding practices and living abroad. I am currently a developer in a project that involves using Julia to do data-fitting of electrical neuronal models. My main computer is currently an NVIDIA Jetson Nano (ARM architercture). I spend a lot of my spare time and money improving native vegetation.",
   resume: require('../editable-stuff/resume.pdf')
 };
 
@@ -67,30 +67,6 @@ const repos = {
 const leadership = {
   show: true
 };
-/*const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    {
-      img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-    },
-    {
-      img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};*/
-
-// SKILLS SECTION
 const skills = {
   show: true,
   heading: "Skills",
