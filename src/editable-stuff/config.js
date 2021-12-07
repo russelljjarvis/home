@@ -9,8 +9,9 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  //profilePictureLink: require("https://github.com/russelljjarvis/home/blob/master/src/editable-stuff/nature.png"),
-  message: "Passionate about Julia Language and Machine Learning for social good. ",
+  imageLink: "../editable-stuff/nature.png",
+  imageSize: 375,
+  message: "Passionate about Julia Language and Machine Learning and Markdown for social good.",
   icons: [
     {
       image: "fa-github",
@@ -59,9 +60,17 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "russelljjarvis", //i.e."johnDoe12Gh"
-  reposLength: 8,
-  specificRepos: ["https://github.com/russelljjarvis/SpikeNetOpt.jl","https://github.com/russelljjarvis/jit_hub","https://github.com/russelljjarvis/ScienceAccess","https://github.com/russelljjarvis/BluePyOpt"],
+  reposLength: 0,
+  specificRepos: ["ScienceAccess","SpikeNetOpt.jl","jit_hub","neuronunit","BluePyOpt","CoauthorNetVis"],
 };
+
+//const repos = {
+//  show: true,
+//  heading: "Recent Projects",
+//  gitHubUsername: "lucitemple", //i.e."johnDoe12Gh"
+//  reposLength: 0,
+//  specificRepos: ["jamming", "ravenous", "task-planner", "tv-directory", "react-challenge-start", "JavaScript30" ],
+//};
 
 // Leadership SECTION
 const leadership = {
@@ -86,7 +95,7 @@ const skills = {
   ],
   softSkills: [
     { name: "Empathy", value: 90 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 65 },
     { name: "Collaboration", value: 90 },
     { name: "Goal-Oriented", value: 80 },
     { name: "Positivity", value: 75 },
