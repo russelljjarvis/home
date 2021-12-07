@@ -8,31 +8,49 @@ const Leadership = ({}) => {
       style={{ backgroundColor: "white" }}
     >
       <div className="container container-fluid">
-        <h2 className="display-4 pb-5 text-center">{"Noteable Anecdotes"}</h2>
+        <h3 className="display-4 pb-5 text-center">{"GitHub Statistics (since 2014)"}</h3>
         <div className="row">
 
+
+
             <centre>
-            <ul>
-            <p>
-              <li>
-                I have been invited to join a volunteer web scraping project. I noticed that the voluntary project was aligned with FOSS principles but was not currently using them. When I joined the team as a volunteer, I used my influence and initiative to: Switch the team from MATLAB to Python-based development. I also got the team to adopt Continuous Integration and social coding practices. I set up a Git repository, a docker container, and a CircleCI .yml script. I later convinced the team of developers and writers to publish in the Journal of Open Source software and write a Preprint paper on the Open Science Portal.
-              </li>
+             <div>
 
-            </p>
-            <p>
-              <li>
+              <a href="https://github.com/russelljjarvis/github-readme-stats">
+                  <img align="center" src="https://github-readme-stats.vercel.app/api?username=russelljjarvis&text_color=daf7dc&bg_color=151515&theme=cobalt&show_icons=true?count_private=true&show_icons=true" />
+               </a>
+               </div>
 
-                At a science outreach evening called the ASU Night of the Open Door, I convinced my laboratory to visualize 3D neuron cell structure in virtual reality. Since our lab was a theoretical/computational lab having a virtual reality product to show people greatly assisted with our labs capacity to communicate abstract knowlege.
-              </li>
+             </centre>
 
-            </p>
-            </ul>
+            <centre>
+             <div>
 
-            </centre>
 
-        </div>
+
+             <a href="https://github.com/russelljjarvis/russelljjarvis">
+                <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=russelljjarvis&layout=compact&text_color=daf7dc&bg_color=151515&&hide=jupyter%20notebook,HTML,XSLT,OpenEdge%20ABL,AGS%20Script,AMPL,GAP,Roff,C,SCSS,Lua&langs_count=7)](https://github.com/russelljjarvis/github-readme-stats" />
+             </a>
+             </div>
+
+           </centre>
+
+             <centre>
+              <div>
+
+               <a href="GitHub Streak">
+                  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=russelljjarvis&theme=dark" />
+               </a>
+             </div>
+
+           </centre>
+
+
+         </div>
+
       </div>
     </div>
+
   );
 };
 

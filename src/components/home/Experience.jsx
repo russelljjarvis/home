@@ -10,8 +10,8 @@ const Experience = ({}) => {
         <section className="section">
             <h1 className="display-4 pb-5 mb-4 mr-5 pr-0 text-center">{"Data Driven Web Applications"}</h1>
                 <div class="Cell">
-                <center>
 
+                <center>
                     <p>
                         In my spare time I have made these open source data driven web-apps and dashboards:
                     </p>
@@ -36,14 +36,26 @@ const Experience = ({}) => {
                     </p>
 
                 </div>
+                <div>
+                <center>
+                <p>
+
+                    <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="ubuntu" width="45" height="55"/>
+                </p>
+
+                </center>
+                </div>
 
             </center>
+
             <h1 className="display-4 pb-5 mb-4 mr-5 pr-0 text-center">{"Science Writing"}</h1>
             <div class="Cell">
+
                 <center>
 
                 <p>
                     While completing a PhD I wrote a PhD dissertation, and coauthored numerous scientific documents.
+
                 </p>
                 </center>
 
@@ -78,9 +90,18 @@ const Experience = ({}) => {
             <center>
                 <div class="Cell">
                     <p>
-                        <a href="https://www.proquest.com/openview/4454bb4e9de74e78ed42343544996667/1.pdf">PhD Thesis</a>
+                        <a href="https://www.proquest.com/openview/4454bb4e9de74e78ed42343544996667/1.pdf">PhD Dissertation</a>
                     </p>
                 </div>
+            </center>
+            <center>
+                <p>
+
+                <a href="https://orcid.org/0000-0003-0281-2849">
+                  <img align="center" src="https://img.shields.io/badge/ORCID-0000--0001--9813--3167-9745f5?style=flat-square.svg" />
+                </a>
+                </p>
+
             </center>
 
 
