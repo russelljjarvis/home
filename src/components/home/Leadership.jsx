@@ -28,22 +28,25 @@ const Leadership = ({}) => {
 
 
 
-             <a href="https://github.com/russelljjarvis/russelljjarvis">
-                <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=russelljjarvis&layout=compact&text_color=daf7dc&bg_color=151515&&hide=jupyter%20notebook,HTML,XSLT,OpenEdge%20ABL,AGS%20Script,AMPL,GAP,Roff,C,SCSS,Lua&langs_count=7)](https://github.com/russelljjarvis/github-readme-stats" />
-             </a>
+             <p href="https://github.com/russelljjarvis/russelljjarvis">
+                <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=russelljjarvis&layout=compact&theme=cobalt&text_color=daf7dc&bg_color=151515&&hide=jupyter%20notebook,HTML,XSLT,OpenEdge%20ABL,AGS%20Script,AMPL,GAP,Roff,C,SCSS,Lua&langs_count=7)](https://github.com/russelljjarvis/github-readme-stats" />
+             </p>
              </div>
 
            </centre>
 
-             <centre>
               <div>
 
-               <a href="GitHub Streak">
-                  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=russelljjarvis&theme=dark" />
-               </a>
+               <p href="GitHub Streak">
+                  <centre>
+
+                      <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=russelljjarvis&theme=dark" />
+                  </centre>
+
+               </p>
+
              </div>
 
-           </centre>
 
 
          </div>

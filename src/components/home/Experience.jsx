@@ -13,7 +13,7 @@ const Experience = ({}) => {
 
                 <center>
                     <p>
-                        In my spare time I have made these open source data driven web-apps and dashboards:
+                        In my spare time I have made these open source data driven web-apps and dashboards.
                     </p>
                 </center>
 
@@ -40,7 +40,7 @@ const Experience = ({}) => {
                 <center>
                 <p>
 
-                    <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="ubuntu" width="45" height="55"/>
+                    <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="ubuntu" width="35" height="40"/>
                 </p>
 
                 </center>
@@ -61,6 +61,18 @@ const Experience = ({}) => {
 
             </div>
 
+            <div class="Cell">
+
+                <center>
+
+                <p>
+                    Peer Reviewed
+
+                </p>
+                </center>
+
+            </div>
+
             <center>
 
 
@@ -71,6 +83,17 @@ const Experience = ({}) => {
                 </div>
             </center>
 
+            <div class="Cell">
+
+                <center>
+
+                <p>
+                    Pre-Publication
+
+                </p>
+                </center>
+
+            </div>
 
             <center>
                 <div class="Cell">
@@ -79,6 +102,8 @@ const Experience = ({}) => {
                     </p>
                 </div>
             </center>
+
+
             <center>
                 <div class="Cell">
                     <p>
@@ -87,10 +112,23 @@ const Experience = ({}) => {
                     </p>
                 </div>
             </center>
+
+            <div class="Cell">
+
+                <center>
+
+                <p>
+                    PhD Dissertation
+
+                </p>
+                </center>
+
+            </div>
+
             <center>
                 <div class="Cell">
                     <p>
-                        <a href="https://www.proquest.com/openview/4454bb4e9de74e78ed42343544996667/1.pdf">PhD Dissertation</a>
+                        <a href="https://www.proquest.com/openview/4454bb4e9de74e78ed42343544996667/1.pdf">Dissertation</a>
                     </p>
                 </div>
             </center>
