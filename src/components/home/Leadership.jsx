@@ -36,14 +36,14 @@ const Leadership = ({}) => {
            </centre>
 
               <div>
-
-               <p href="GitHub Streak">
+               <a href="GitHub Streak">
                   <centre>
 
                       <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=russelljjarvis&theme=dark" />
                   </centre>
 
-               </p>
+               </a>
+      
 
              </div>
 

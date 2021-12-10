@@ -23,10 +23,10 @@ const Experience = ({}) => {
             <center>
                 <div class="Cell">
                     <p>
-                        <a href="https://share.streamlit.io/mcgurrgurr/scienceaccess/app.py">Searchable Exploration of the Readability of Scientific Authors</a>
+                        <a href="https://share.streamlit.io/russelljjarvis/scienceaccess/app.py">Searchable Exploration of the Readability of Scientific Authors</a>
                     </p>
                     <p>
-                        <a href="https://share.streamlit.io/russelljjarvis/odor2action/app.py">Unique Interactive Social Network Visualizations </a>
+                        <a href="https://share.streamlit.io/russelljjarvis/odor2action/app.py">Bespoke Interactive Social Network Visualizations </a>
                     </p>
                     <p>
                         <a href="https://share.streamlit.io/russelljjarvis/sirg_geo_net/main/app3.py">Interactive Geographic Network Visualization </a>
