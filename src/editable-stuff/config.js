@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Russell",
   middleName: "",
   lastName: "Jarvis",
-  imageLink: "../editable-stuff/nature.png",
+  imageLink: require("../editable-stuff/me_nature.png"),
   imageSize: 375,
   message: "Passionate about Julia Language and Machine Learning and Markdown for social good.",
   icons: [
@@ -47,7 +47,7 @@ const about = {
   heading: "About Me",
   imageLink: "",
   imageSize: "",//175,
-  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical Engineering (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have a long history of participating in social coding practices and living abroad. I am currently a developer in a project that involves using Julia to do data-fitting of electrical neuronal models. My main computer is currently an NVIDIA Jetson Nano (ARM architercture). I spend a lot of my spare time and money improving native vegetation.",
+  message:"My name is Russell Jarvis, I have graduate degrees in Biomedical Engineering (MA) and Neuroscience (PhD). I am a long term FOSS data science developer. I am experienced in machine learning software development especially genetic algorithm optimization using Python and Julia. I have a long history of participating in social coding practices and living abroad. I am currently a developer in a project that involves using Julia to do data-fitting of electrical neuronal models. I like to develop on an NVIDIA Jetson Nano (ARM architercture) board because it is quiet. I spend a lot of my spare time and money improving native vegetation.",
   resume: require('../editable-stuff/resume.pdf')
 };
 
@@ -141,4 +141,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, leadership, getInTouch, experiences };
