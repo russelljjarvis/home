@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.03eff7be.css",
-    "main.js": "/home/static/js/main.8e5e909f.js",
+    "main.css": "/home/static/css/main.302fb2f1.css",
+    "main.js": "/home/static/js/main.75eb198f.js",
     "static/media/me_nature.png": "/home/static/media/me_nature.dc6e22ec776f0abca011.png",
+    "static/media/tropical.jpeg": "/home/static/media/tropical.74b5584dfd4dec7d4e64.jpeg",
     "index.html": "/home/index.html",
-    "main.03eff7be.css.map": "/home/static/css/main.03eff7be.css.map",
-    "main.8e5e909f.js.map": "/home/static/js/main.8e5e909f.js.map"
+    "main.302fb2f1.css.map": "/home/static/css/main.302fb2f1.css.map",
+    "main.75eb198f.js.map": "/home/static/js/main.75eb198f.js.map"
   },
   "entrypoints": [
-    "static/css/main.03eff7be.css",
-    "static/js/main.8e5e909f.js"
+    "static/css/main.302fb2f1.css",
+    "static/js/main.75eb198f.js"
   ]
 }
