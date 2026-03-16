@@ -47,7 +47,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className="display-4 mb-5 text-left">{heading}</h2>
-            <p className="lead text-left">{message}</p>
+            {message.split("\n\n").map((para, i) => (
+              <p key={i} className="lead text-left">{para}</p>
+            ))}
             {resume && (
               <p className="lead text-left">
                 <a

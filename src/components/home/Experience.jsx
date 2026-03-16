@@ -29,6 +29,10 @@ const Experience = () => {
                 </div>
             <div>
                 <div className="Cell">
+                    <p><a href="https://nmjetbiivmxey6s7nxuv3c.streamlit.app/">EVC Ecotone Explorer — Geospatial Dashboard</a> &nbsp;
+                        <span style={{ color: "#666", fontSize: "0.9em" }}>#geopandas #geospatial #EVC</span>
+                    </p>
+                    <p style={{ fontSize: "0.95em" }}>Built during a Nature Stewards course using GeoPandas, this dashboard iterates over all combinations of neighbouring Environmental Vegetation Classes (EVCs) across Victoria, mapping the Ecotones at their boundaries. Data sourced from the Victorian Government open data portal (GDA2020 VicGrid EVC 2020).</p>
                     <p><a href="https://share.streamlit.io/russelljjarvis/scienceaccess/app.py">Searchable Exploration of the Readability of Scientific Authors</a></p>
                     <p><a href="https://share.streamlit.io/russelljjarvis/odor2action/app.py">Bespoke Interactive Social Network Visualizations</a></p>
                     <p><a href="https://share.streamlit.io/russelljjarvis/sirg_geo_net/main/app3.py">Interactive Geographic Network Visualization</a></p>
@@ -57,9 +61,8 @@ const Experience = () => {
                     <p style={{ margin: 0 }}>Frontiers In Neuroinformatics</p>
                     <p style={{ margin: 0, color: "#666" }}>Jun 2023 – Sep 2023 · 4 mos</p>
                     <p style={{ margin: 0, color: "#666" }}>Science and Technology</p>
-                    <p style={{ marginTop: "0.5rem" }}>
-                        I reviewed: <a href="https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2023.1099510/full">A scalable implementation of the recursive least-squares algorithm for training spiking neural networks</a>
-                    </p>
+                    <p style={{ marginTop: "0.5rem" }}>I reviewed:</p>
+                    <p><a href="https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2023.1099510/full">A scalable implementation of the recursive least-squares algorithm for training spiking neural networks</a></p>
                 </div>
             </div>
           </Container>

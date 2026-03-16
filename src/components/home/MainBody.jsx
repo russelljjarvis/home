@@ -1,5 +1,4 @@
 import React from "react";
-import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
@@ -18,12 +17,9 @@ const MainBody = React.forwardRef(
         <div id="stars"></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
-            {title}
+            Portfolio of {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
-            {" "}
-            {message}
-          </Typist>
+          <p className="lead">{message}</p>
           <div className="p-5">
             {icons.map((icon, index) => (
               <a

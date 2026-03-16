@@ -8,7 +8,7 @@ const GetInTouch = ({ heading, message, email }) => {
         {message}, <a href={`mailto:${email}`}>{email}</a>.
       </p>
       <p className="lead text-left pb-3">
-        <a href="https://www.aerialvisionscience.com.au" target="_blank" rel="noreferrer noopener">www.aerialvisionscience.com.au</a>
+        I am making a website at <a href="https://www.aerialvisionscience.com.au" target="_blank" rel="noreferrer noopener">www.aerialvisionscience.com.au</a> and it will be up soon.
       </p>
     </>
   );

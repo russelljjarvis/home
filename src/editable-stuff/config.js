@@ -11,7 +11,7 @@ const mainBody = {
   lastName: "Jarvis",
   imageLink: require("../editable-stuff/me_nature.png"),
   imageSize: 375,
-  message: "Passionate about environmental good, computer vision, and remote sensing and geospatial science.",
+  message: "Passionate about environmental health, computer vision, and remote sensing and geospatial science.",
   icons: [
     {
       image: "fa-github",
@@ -41,9 +41,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "",
-  imageSize: "",//175,
-  message:"My name is Russell Jarvis. I am a former scientific software developer in Computational Neuroscience who has since moved into the commercial remote sensing and Computer Vision industry. The machine learning techniques I applied to brain imaging translate naturally to automated detection and labelling of environmental features in drone imagery. I have previously built data-driven web dashboards and applications, though most of them are no longer online. I spend much of my spare time and resources supporting native vegetation restoration. I hold graduate degrees in Biomedical Engineering (MA) and Computational Neuroscience (PhD).",
+  imageLink: require("../editable-stuff/tropical.jpeg"),
+  imageSize: 375,
+  message:"Hi, this is Russell. I am a former scientific software developer in Computational Neuroscience who has since moved into the commercial remote sensing and computer vision industry. The machine learning techniques I applied to brain imaging translate naturally to automated detection and labelling of environmental features in drone imagery.\n\nI have previously built data-driven web dashboards and applications, though most of them are no longer online.\n\nI spend much of my spare time and resources supporting native vegetation restoration. I hold graduate degrees in Biomedical Engineering (MA) and Computational Neuroscience (PhD).",
   resume: null
 };
 
