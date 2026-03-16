@@ -1,0 +1,60 @@
+{
+  "name": "developers-portfolio",
+  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": "https://russelljjarvis.github.io/home",
+  "version": "2.0.0",
+  "private": true,
+  "author": {
+    "name": "Hashir Shoaib",
+    "email": "hashirshoaeb@gmail.com",
+    "url": "https://russelljjarvis.github.io/home"
+  },
+  "dependencies": {
+    "ajv": "^8.0.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.5.1",
+    "sass": "^1.77.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-loading-skeleton": "^3.3.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-typist": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "deploy:full": "bash deploy.sh",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:site": "PUBLIC_URL=/portfolio react-scripts build && rm -rf dist && mkdir -p dist/portfolio && cp index.html dist/ && cp AerialVisionScienceIcon.png dist/ && cp watershed_map.png dist/ && cp -r build/. dist/portfolio/ && cp -r public/tern_project dist/tern_project",
+    "preview": "npm run build:site && fuser -k 9000/tcp 2>/dev/null; python3 -m http.server 9000 --directory dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "custom-deploy": "node pages.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "overrides": {
+    "fork-ts-checker-webpack-plugin": "^8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+import React from "react";
+
+const Leadership = () => {
+  return (
+    <div
+      id="leadership"
+      className="jumbotron jumbotron-fluid m-0"
+      style={{ backgroundColor: "white" }}
+    >
+      <div className="container container-fluid">
+        <h3 className="display-4 pb-5 text-left">{"GitHub Statistics (since 2014)"}</h3>
+        <div className="row">
+
+
+
+            <centre>
+             <div>
+
+              <a href="https://github.com/russelljjarvis/github-readme-stats">
+                  <img align="center" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=russelljjarvis&text_color=daf7dc&bg_color=151515&theme=cobalt&show_icons=true?count_private=true&show_icons=true" />
+               </a>
+               </div>
+
+             </centre>
+
+            <centre>
+             <div>
+
+
+
+             <p href="https://github.com/russelljjarvis/russelljjarvis">
+                <img align="center" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=russelljjarvis&layout=compact&theme=cobalt&text_color=daf7dc&bg_color=151515&&hide=jupyter%20notebook,HTML,XSLT,OpenEdge%20ABL,AGS%20Script,AMPL,GAP,Roff,C,SCSS,Lua&langs_count=7)](https://github.com/russelljjarvis/github-readme-stats" />
+             </p>
+             </div>
+
+           </centre>
+
+              <div>
+               <a href="GitHub Streak">
+                  <centre>
+
+                      <img align="right" alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=russelljjarvis&theme=dark" />
+                  </centre>
+
+               </a>
+      
+
+             </div>
+
+
+
+         </div>
+
+      </div>
+    </div>
+
+  );
+};
+
+export default Leadership;
